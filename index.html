@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Landing Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1a13972aeb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/aos.css">
+
+</head>
+
+<body>
+    <div class="AppContainer">
+        <div class="innerAppContainer">
+            <header>
+                <img class="logo" src="./img/logo.png" alt="logo" />
+                <ul>
+                    <img class="logo mobileLogo" src="./img/logo.png" alt="logo" onclick="closeNav()" />
+                    <li><a href="#home" onclick="closeNav()">Home</a></li>
+                    <li><a href="#product" onclick="closeNav()">Products</a></li>
+                    <li><a href="#whatnew" onclick="closeNav()">What's New</a></li>
+                    <li><a href="#newsletter" onclick="closeNav()">Newsletter</a></li>
+                    <li><a href="#contact" onclick="closeNav()">Contact</a></li>
+                </ul>
+                <div class="toggle-menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </header>
+            <section class="content">
+                <div class="article" data-aos="zoom-in">
+                    <h2>Coca'Cola<br><span class="span">Classic</span></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatum distinctio eveniet tempore saepe obcaecati molestiae omnis optio praesentium libero.
+                        Obcaecati eos facere pariatur laudantium laborum perferendis voluptatibus repellendus adipisci
+                        voluptatem?</p>
+                    <a href="#">View All Products</a>
+
+                </div>
+                <ul class="thumb">
+                    <li><img src="./img/coke.png" class="imgSlider1" /></li>
+                    <li><img src="./img/Coca-Cola-Zero-Can.png" class="imgSlider2" /></li>
+                    <li><img src="./img/coke3.png" class="imgSlider3" /></li>
+                </ul>
+                <div class="img">
+                    <img src="./img/coke.png" class="cocaCola floating" />
+                    <ul class="social">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+<!-- animate-aos -->
+<script src="js/aos.js"></script>
+<script type="text/javascript">
+    AOS.init({
+        offset: 200,
+        duration: 2000,
+    });
+</script>
+<!-- animate-aos -->
+<script src="./js/script.js"></script>
+
+</html>
